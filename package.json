@@ -1,0 +1,23 @@
+{
+  "name": "simples_api_de_evento",
+  "version": "1.0.0",
+  "description": "api rest de evento com node e mongoDb apenas para estudo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evneto",
+    "estudo",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Bruno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "nodemon": "^1.17.3"
+  }
+}
