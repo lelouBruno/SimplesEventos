@@ -82,29 +82,6 @@ rota.route('/postagem/:Posta_id') //consultando postagem por id(unica postagem)
         });
     }) 
 
-  /*  .put(function(req, res) {
-
-        //Primeiro: para atualizarmos, precisamos primeiro achar 'Id' do 'Produto':
-        Posta.findById(req.params.Posta_id, function(error, Posta) {
-            if (error){ 
-                res.send("Id do Produto não encontrado....: " + error);
-            }
-                //Segundo: 
-                Posta.nome = req.body.nome;
-                Posta.local = req.body.local;
-                Posta.descricao = req.body.descricao;
-
-                //Terceiro: Agora que já atualizamos os dados, vamos salvar as propriedades:
-                Posta.save(function(error) {
-                    if(error)
-                        res.send('Erro ao atualizar o produto....: ' + error);
-
-                    res.json({ message: 'Produto atualizado com sucesso!' });
-                });
-            });
-        }) //fim do put */
-
-
 
 
     .delete(function(req,res){ // apagando postagem por id
