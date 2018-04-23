@@ -12,7 +12,7 @@ va no diretorio onde baixou essa api rest pelo terminal ou cmd e digite os coman
 npm init
 node index.js
 
-#acessando a api
+# acessando a api
 
 abra o seu navegador preferido no endereço https://localhost:12345/postagem
 
